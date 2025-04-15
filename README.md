@@ -2,7 +2,7 @@
 
 A web application built using **Django** and **Machine Learning** to detect whether an SMS message is spam or not. This lightweight, open-source project demonstrates the power of text classification using a Naive Bayes model and CountVectorizer, ideal for beginners and developers exploring NLP.
 
-## 🚀 Features
+## 🚀 Features of the project
 
 - 🔍 Classifies user-inputted text messages as **Spam** or **Not Spam**
 - ⚙️ Integrated ML model with Django backend
@@ -10,7 +10,7 @@ A web application built using **Django** and **Machine Learning** to detect whet
 - 🧠 Trained using CountVectorizer + Naive Bayes
 - 🗃️ Open-source project hosted on GitHub
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack Detaila 
 
 - **Frontend:** HTML, CSS, Bootstrap (optional)
 - **Backend:** Django (Python)
@@ -31,7 +31,7 @@ Spam-Message-Detection/
 ├── templates/          # Base templates
 └── requirements.txt
 
-## 📦 Installation & Setup
+## 📦 Installation & Setup Steps
 
 1. Clone the Repository
 
