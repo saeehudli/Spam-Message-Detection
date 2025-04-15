@@ -88,13 +88,10 @@ Contributions are welcome! Follow the steps:
 
 ## 👩‍💻 Developed By
 
-**Saee Hudli**  
+**Saee Hudli & SujayPunekar** 
 GitHub: [@saeehudli](https://github.com/saeehudli)
+GitHub:[@sujaypunekar](https://github.com/sujaypunekar592004)
 
-## 📄 License
-
-This project is licensed under the **MIT License**.  
-Feel free to use, modify, and distribute with credit. ✨
 
 ## ⭐️ Show Your Support
 
