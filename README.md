@@ -1,2 +1,102 @@
-# Spam-Message-Detection
-Spam message detection means finding out which messages are unwanted or fake, like ads or scams, and separating them from real messages. A computer looks at the words in the message, who sent it, and how it’s written to decide if it’s spam (bad) or not spam (good). This helps keep your inbox clean and safe.
+# 📩 Spam Message Detection
+
+A web application built using **Django** and **Machine Learning** to detect whether an SMS message is spam or not. This lightweight, open-source project demonstrates the power of text classification using a Naive Bayes model and CountVectorizer, ideal for beginners and developers exploring NLP.
+
+## 🚀 Features
+
+- 🔍 Classifies user-inputted text messages as **Spam** or **Not Spam**
+- ⚙️ Integrated ML model with Django backend
+- 🌐 Simple and responsive frontend interface
+- 🧠 Trained using CountVectorizer + Naive Bayes
+- 🗃️ Open-source project hosted on GitHub
+
+## 🛠️ Tech Stack
+
+- **Frontend:** HTML, CSS, Bootstrap (optional)
+- **Backend:** Django (Python)
+- **ML/NLP:** Scikit-learn, CountVectorizer, Naive Bayes
+- **Version Control:** Git & GitHub
+
+## 📂 Project Structure
+
+Spam-Message-Detection/
+├── manage.py
+├── spamdetect/         # Django app
+│   ├── views.py
+│   ├── models.py
+│   ├── templates/
+│   │   ├── home.html
+│   └── ...
+├── static/             # CSS/JS files
+├── templates/          # Base templates
+└── requirements.txt
+
+## 📦 Installation & Setup
+
+1. Clone the Repository
+
+git clone https://github.com/saeehudli/Spam-Message-Detection.git
+cd Spam-Message-Detection
+
+2. Create Virtual Environment (Optional but Recommended)
+
+python -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
+
+3. Install Dependencies
+
+pip install -r requirements.txt
+
+4. Run the Project
+
+python manage.py runserver
+
+Then open your browser and visit:  
+👉 http://127.0.0.1:8000/
+
+## 📈 Model Overview
+
+- **Text Vectorization:** CountVectorizer (bag of words model)
+- **Classifier:** Multinomial Naive Bayes
+- **Dataset:** Preprocessed SMS spam collection dataset
+- **Accuracy:** ~98% on validation set
+
+## 🧪 Example Input & Output
+
+- Input: “Congratulations! You've won a free iPhone. Call now!”  
+  Output: **SPAM**
+
+- Input: “Hey, are we still meeting for lunch today?”  
+  Output: **NOT SPAM**
+
+## 🐛 Known Issues / To Do
+
+- [ ] Add user authentication
+- [ ] Improve UI with React or modern frontend
+- [ ] Add option to upload .txt files or message datasets
+- [ ] Deploy to cloud (Heroku/Vercel/DigitalOcean)
+
+## 🤝 Contributing
+
+Contributions are welcome! Follow the steps:
+
+1. Fork this repo
+2. Create a feature branch `git checkout -b feature-x`
+3. Commit changes: `git commit -m "Add feature"`
+4. Push to branch: `git push origin feature-x`
+5. Open a Pull Request
+
+## 👩‍💻 Developed By
+
+**Saee Hudli**  
+GitHub: [@saeehudli](https://github.com/saeehudli)
+
+## 📄 License
+
+This project is licensed under the **MIT License**.  
+Feel free to use, modify, and distribute with credit. ✨
+
+## ⭐️ Show Your Support
+
+If you like this project, give it a ⭐️ on GitHub!  
+Your support motivates me to improve it further 💙
